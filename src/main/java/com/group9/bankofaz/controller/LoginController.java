@@ -119,8 +119,8 @@ public class LoginController {
 		}
 		
 		boolean isCodeValid = loginService.validateOtp(username, Integer.parseInt(otp_pwd));
-		/*System.out.println("Verify : " + isCodeValid);
-		System.out.println("#########################");*/
+		System.out.println("Verify : " + isCodeValid);
+		System.out.println("#########################");
 
 		// validations
 		
