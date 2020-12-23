@@ -95,7 +95,7 @@ public class LoginController {
 		String username = SecurityContextHolder.getContext().getAuthentication().getName();
 		session.setAttribute("BOAUsername", username);
 		int otp = loginService.generateOTP(username);
-		loginService.sendEmail(username, "Your otp is " + Integer.toString(otp), "Bank of Arizona OTP");
+/*		loginService.sendEmail(username, "Your otp is " + Integer.toString(otp), "Bank of Arizona OTP"); -- 23/12 commented out to avoid smtp email exception
 		return new ModelAndView("otp");
 
 	}
