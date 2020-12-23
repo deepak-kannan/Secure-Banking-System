@@ -10,10 +10,10 @@ import com.group9.bankofaz.model.UserOtp;
 
 public class UserOtpDAOImpl implements UserOtpDAO, ICredentialRepository {
 
-	static final String DB_URL = "jdbc:mysql://localhost:3306/bankofazdb";
+	static final String DB_URL = "jdbc:mysql://127.0.0.1:3306/bankofazdb";
 
-	static final String USER = "dbuser";
-	static final String PASS = "tR$qCR8j";
+	static final String USER = "root";
+	static final String PASS = "Eadevops#1234";
 	static final int tolerance = 5 * 60 * 1000;
 
 	private UserOtp userotp;
@@ -29,7 +29,7 @@ public class UserOtpDAOImpl implements UserOtpDAO, ICredentialRepository {
 		Statement stmt = null;
 		try {
 
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 
 			System.out.println("Connecting to database...");
 			conn = DriverManager.getConnection(DB_URL, USER, PASS);
