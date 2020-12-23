@@ -19,6 +19,6 @@ public class BOASendMail {
 		msg.setTo(toAddress);
 		msg.setSubject(subject);
 		msg.setText(msgBody);
-/*		mailSender.send(msg); - 23/12 Commented out to avoid smtp email exception
+/*		mailSender.send(msg); - 23/12 Commented out to avoid smtp email exception */
 	}
 }
