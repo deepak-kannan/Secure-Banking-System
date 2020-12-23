@@ -64,7 +64,7 @@ public class LoginServiceImpl implements LoginService {
 
 	@Override
 	public void sendEmail(String emailId, String message, String subject) {
-		boaSendEmail.SendMailToCustomer(emailId, subject, message);
+/*		boaSendEmail.SendMailToCustomer(emailId, subject, message); --23/12 - Commented out to avoid smtp email exception
 	}
 
 	@PostConstruct
