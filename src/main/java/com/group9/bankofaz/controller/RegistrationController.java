@@ -50,10 +50,11 @@ public class RegistrationController {
 		try {
 			String gRecaptchaResponse = request.getParameter("g-recaptcha-response");
 			boolean verify = VerifyRecaptcha.verify(gRecaptchaResponse);
-
+	/* 04/01/2020 - Deepak - Removed the captcha response check
 			if (!verify) {
 				return new ModelAndView("redirect:/registration");
 			}
+	*/
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
