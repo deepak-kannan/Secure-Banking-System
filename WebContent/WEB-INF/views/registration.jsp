@@ -139,12 +139,12 @@ table.inner {
 				<td><input type="text" class="form-control" name="SSN"
 					maxlength="30" value="${ssn}" /></td>
 			</tr>
-	<!--
+
 			<tr>
 				<td align="center" colspan="2"><div class="g-recaptcha"
 						data-sitekey="6Lf6kw8TAAAAAMosmegdJlwFmUbqoi41K9IBdXVt"></div></td>
 			</tr>
-	-->
+
 			<tr>
 				<td align="center"><input type="submit" class="btn btn-default"
 					value="Submit"></td>
