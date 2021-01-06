@@ -49,7 +49,7 @@ public class LoginController {
 			+ "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
 
 	private Pattern email_pattern = Pattern.compile(EMAIL_PATTERN);
-/* 06/01/2020 - Addded a comment for demo purpose - Deepak
+/* 06/01/2020 - Addded a comment for demo purpose - Deepak */
 
 	@RequestMapping("/login")
 	public ModelAndView getLoginForm(@RequestParam(required = false) String authfailed, String logout,
