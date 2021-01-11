@@ -235,19 +235,12 @@
       			<version>4.11</version>
       			<scope>test</scope>
     		</dependency>
-		<!-- 11/01 - Added Struts dependency to avoid build error using Cobertura -->
+		<!-- 11/01 - Added tools dependency to avoid build error using Cobertura -->
   		<dependency>
-    			<groupId>org.apache.struts</groupId>
-    			<artifactId>struts2-core</artifactId>
-    			<version>2.0.11.2</version>
-    			<exclusions>
-        			<exclusion>
-            				<artifactId>tools</artifactId>
-            				<groupId>com.sun</groupId>
-        			</exclusion>
-    			</exclusions>
+    			<groupId>com.sun</groupId>
+    			<artifactId>tools</artifactId>
+    			<version>1.4.2</version>
 		</dependency>
-
 	</dependencies>
 
 
