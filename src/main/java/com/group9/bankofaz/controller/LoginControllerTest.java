@@ -1,8 +1,9 @@
+package com.group9.bankofaz.controller;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class StringHelperTest {
+public class LoginControllerTest {
 
 	@Test
 	public void test() {
