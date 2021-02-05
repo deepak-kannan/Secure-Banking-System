@@ -1,3 +1,5 @@
+package com.group9.bankofaz.test;
+
 public class Calculation {  
   
     public static int findMax(int arr[]){  
