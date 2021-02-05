@@ -1,3 +1,4 @@
+package com.group9.bankofaz.test;
 import static org.junit.Assert.*;  
 
 import org.junit.Test;  
