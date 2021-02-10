@@ -17,4 +17,3 @@ public class Calculation {
         return max;  
             }  
 }  
-© 2021 GitHub, Inc.
