@@ -71,14 +71,6 @@ public class Authorizes_ESTest {
       assertNull(transaction1.getTransdesc());
   }
 
-  @Test(timeout = 4000)
-  public void test06()  throws Throwable  {
-      Authorizes authorizes0 = new Authorizes();
-      MockDate mockDate0 = new MockDate();
-      authorizes0.setEnd_datetime(mockDate0);
-      Date date0 = authorizes0.getEnd_datetime();
-      assertSame(date0, mockDate0);
-  }
 
   @Test(timeout = 4000)
   public void test07()  throws Throwable  {
@@ -155,15 +147,6 @@ public class Authorizes_ESTest {
       Authorizes authorizes0 = new Authorizes();
       Transaction transaction0 = authorizes0.getTid();
       assertNull(transaction0);
-  }
-
-  @Test(timeout = 4000)
-  public void test16()  throws Throwable  {
-      Authorizes authorizes0 = new Authorizes();
-      MockDate mockDate0 = new MockDate((-924), (-924), (-924), 819, 819, (-924));
-      authorizes0.setStart_datetime(mockDate0);
-      Date date0 = authorizes0.getStart_datetime();
-      assertEquals("Sat Jul 24 16:23:36 GMT 896", date0.toString());
   }
 
   @Test(timeout = 4000)
