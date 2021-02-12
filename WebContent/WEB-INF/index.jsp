@@ -9,9 +9,8 @@
 <body style="background-color:#D3FAFD;">
 	<br>
 	<div style="text-align:center">
-		<h2>
-		img src="BOA Logo.jpg" alt="BOALogo" width="500" height="333">
-		</h2>
+		<h2>HTML Image</h2>
+		<img src="BOA Logo.jpg" alt="BOALogo" width="500" height="333">		
 		<h3>
 			<a href="login.html">Click here to Go to our Login Page</a>
 		</h3>
