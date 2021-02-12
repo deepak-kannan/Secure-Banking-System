@@ -34,3 +34,4 @@ public class RegistrationServiceImpl_ESTest {
       //  // Unstable assertion: assertNotNull(string0);
       //  // Unstable assertion: assertEquals("L2", string0);
   }
+}
