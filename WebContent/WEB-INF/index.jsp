@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Index Page</title>
 </head>
-<body style="background-color:#C8CD97;">
+<body style="background-color:#D3FAFD;">
 	<br>
 	<div style="text-align:center">
 		<h2>
