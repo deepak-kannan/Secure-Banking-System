@@ -15,12 +15,6 @@ public class EmployeeListException_ESTest {
   }
 
   @Test(timeout = 4000)
-  public void test2()  throws Throwable  {
-      MockThrowable mockThrowable0 = new MockThrowable();
-      EmployeeListException employeeListException0 = new EmployeeListException(mockThrowable0);
-  }
-
-  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       EmployeeListException employeeListException0 = new EmployeeListException();
       EmployeeListException employeeListException1 = new EmployeeListException("3)>tR7I]!bKU", employeeListException0);
