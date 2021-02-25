@@ -10,9 +10,12 @@ import com.group9.bankofaz.model.UserOtp;
 
 public class UserOtpDAOImpl implements UserOtpDAO, ICredentialRepository {
 
-	static final String DB_URL = "jdbc:mysql://127.0.0.1:3306/bankofazdb";
+	//static final String DB_URL = "jdbc:mysql://127.0.0.1:3306/bankofazdb";
 
-	static final String USER = "root";
+	//static final String USER = "root";
+	//static final String PASS = "Eadevops#1234";
+	static final String DB_URL = "jdbc:mysql://devsecopspocmysql.mysql.database.azure.com/bankofazdb";
+	static final String USER = "devsecopspoc@devsecopspocmysql";
 	static final String PASS = "Eadevops#1234";
 	static final int tolerance = 5 * 60 * 1000;
 
