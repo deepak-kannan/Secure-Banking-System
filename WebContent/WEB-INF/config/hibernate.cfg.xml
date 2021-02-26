@@ -11,7 +11,7 @@
 		<!-- <property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/bankofazdb?autoReconnect=true&amp;useSSL=false</property>
 		<property name="hibernate.connection.username">root</property>
 		<property name="hibernate.connection.password">Eadevops#1234</property> -->
-		<property name="hibernate.connection.url">jdbc:mysql://devsecopspocmysql.mysql.database.azure.com/bankofazdb?useSSL=true&requireSSL=false</property>
+		<property name="hibernate.connection.url">jdbc:mysql://devsecopspocmysql.mysql.database.azure.com/bankofazdb?autoReconnect=true&amp;useSSL=false</property>
 		<property name="hibernate.connection.username">devsecopspoc@devsecopspocmysql</property>
 		<property name="hibernate.connection.password">Eadevops#1234</property>
 		<property name="hibernate.show_sql">true</property>
