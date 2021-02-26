@@ -53,7 +53,7 @@
 		<!-- <property name="url" value="jdbc:mysql://127.0.0.1:3306/bankofazdb?autoReconnect=true&amp;useSSL=false" />
 		<property name="username" value="root" />
 		<property name="password" value="Eadevops#1234" /> -->
-		<property name="url" value="jdbc:mysql://devsecopspocmysql.mysql.database.azure.com/bankofazdb?autoReconnect=true&amp;useSSL=false" />
+		<property name="url" value="jdbc:mysql://devsecopspocmysql.mysql.database.azure.com/bankofazdb?useSSL=true&requireSSL=false" />
 		<property name="username" value="devsecopspoc@devsecopspocmysql" />
 		<property name="password" value="Eadevops#1234" />
 	</bean>
