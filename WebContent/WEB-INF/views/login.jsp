@@ -29,7 +29,7 @@
 </head>
 <body>
 	<h2 align="center">
-		Bank of Arizona<br> <br>
+		Secure Banking Demo<br> <br>
 	</h2>
 
 	<div class="error">${message}</div>
