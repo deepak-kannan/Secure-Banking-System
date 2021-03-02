@@ -6,15 +6,15 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Index Page</title>
 </head>
-<body style="background-color:#D3FAFD;">
+<body style="background-color:white;">
 	<br>
 	<div style="text-align:center">
-		<h2> <img src="/images/BOALogo.jpg" alt="BOALogo" width="500" height="333"> </h2>
+		<h2> Welcome to Secure Banking Application Demo by C&SI </h2>
 		<h3>
 			<a href="login.html">Click here to Go to our Login Page</a>
 		</h3>
 	</div>
-
+<!--
 <div>
 <p>
 Testing:<br/>
@@ -43,5 +43,6 @@ group9sstest<br/><br/>
 
 </p>
 </div>
+-->
 </body>
 </html>
