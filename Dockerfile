@@ -1,4 +1,4 @@
 # Alpine Linux with OpenJDK JRE
 FROM openjdk:11
 # copy WAR into image
-COPY ./SecureBankingSystem.war /SecureBankingSystem.war 
+COPY /home/vsts/work/1/a/target/SecureBankingSystem.war /SecureBankingSystem.war 
