@@ -1,2 +1,3 @@
 FROM tomcat:8.0-alpine
-ADD /home/vsts/work/1/s/target/SecureBankingSystem.war /usr/local/tomcat/webapps/SecureBankingSystem.war
+RUN ["rm", "-rf", "/usr/local/tomcat/webapps"]
+ADD target/SecureBankingSystem.war /usr/local/tomcat/webapps/SecureBankingSystem.war
