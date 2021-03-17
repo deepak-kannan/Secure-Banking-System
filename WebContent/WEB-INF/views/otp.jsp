@@ -26,7 +26,7 @@
 </head>
 <body>
 	<h2 align="center">
-		Bank of Arizona<br> <br>
+		Secure Banking System<br> <br>
 	</h2>
 	<c:if test="${pageContext.request.userPrincipal.name != null}">
 		<h3 align = "center">

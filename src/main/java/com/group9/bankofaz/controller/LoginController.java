@@ -228,7 +228,7 @@ public class LoginController {
 				user.setPassword(encryption.encode(password));
 				user.setFailure(0);				
 				usersDao.update(user);
-				loginService.sendEmail(email, "Your password: " + password, "Bank of Arizona Password");
+				loginService.sendEmail(email, "Your password: " + password, "Secure Banking System Password");
 				message = "Your password was reset. A temporary password was mailed to your email-id";				
 			} else
 				message = "Username does not exist";

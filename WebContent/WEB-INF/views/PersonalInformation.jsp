@@ -20,7 +20,7 @@
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Bank Of Arizona | Personal Information</title>
+<title>Secure Banking System | Personal Information</title>
 <style type="text/css">
 table.inner {
 	border: 0px

@@ -20,7 +20,7 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-<title>Bank of Arizona</title>
+<title>Secure Banking System</title>
 <style type="text/css">
 table.inner {
 	border: 0px
