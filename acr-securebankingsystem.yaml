@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: securebankingsystem-deployment
+  labels:
+    app: securebankingsystem-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: securebankingsystem
+  template:
+    metadata:
+      labels:
+        app: securebankingsystem
+    spec:
+      containers:
+      - name: securebankingsystem
+        image: securebankingsystem.azurecr.io/securebankingsystem:v1
+        ports:
+        - containerPort: 80
