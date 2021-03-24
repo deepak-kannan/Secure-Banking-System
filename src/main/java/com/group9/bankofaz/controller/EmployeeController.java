@@ -16,8 +16,8 @@ import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 //SAST Testing - 24/03 - Deepak
-//import org.springframework.security.crypto.password.StandardPasswordEncoder;	
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.StandardPasswordEncoder;	
+//import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -656,8 +656,8 @@ public class EmployeeController {
 		internal.setAcessPrivilege(user.getAcessPrivilege());
 
 		//SAST Testing - 24/03 - Deepak
-		//StandardPasswordEncoder encryption = new StandardPasswordEncoder();
-		BCryptPasswordEncoder encryption = new BCryptPasswordEncoder();
+		StandardPasswordEncoder encryption = new StandardPasswordEncoder();
+		//BCryptPasswordEncoder encryption = new BCryptPasswordEncoder();
 
 		if (!request.getParameter("Pass").toString().equals(""))
 			users.setPassword(encryption.encode(request.getParameter("Pass").toString()));

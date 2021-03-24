@@ -16,8 +16,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.security.core.context.SecurityContextHolder;
 //SAST Testing - 24/03 - Deepak
-//import org.springframework.security.crypto.password.StandardPasswordEncoder;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.StandardPasswordEncoder;
+//import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -72,8 +72,8 @@ public class LoginController {
 					Users updateuser = usersDao.findUsersByEmail(sessionDetails.getUsername());
 					String password = generatePassword();
 					//SAST Testing - 24/03 - Deepak
-					//StandardPasswordEncoder encryption = new StandardPasswordEncoder();
-					BCryptPasswordEncoder encryption = new BCryptPasswordEncoder();
+					StandardPasswordEncoder encryption = new StandardPasswordEncoder();
+					//BCryptPasswordEncoder encryption = new BCryptPasswordEncoder();
 					updateuser.setPassword(encryption.encode(password));
 					updateuser.setFailure(0);
 					sessionDetails.setFailureAttempts(0);
@@ -229,8 +229,8 @@ public class LoginController {
 
 			if (user != null && verify) {
 				//SAST Testing - 24/03 - Deepak
-				//StandardPasswordEncoder encryption = new StandardPasswordEncoder();
-				BCryptPasswordEncoder encryption = new BCryptPasswordEncoder();
+				StandardPasswordEncoder encryption = new StandardPasswordEncoder();
+				//BCryptPasswordEncoder encryption = new BCryptPasswordEncoder();
 				user.setPassword(encryption.encode(password));
 				user.setFailure(0);				
 				usersDao.update(user);
